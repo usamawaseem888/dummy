@@ -1,0 +1,77 @@
+header {
+  margin: 20px;
+  font-size: 50px;
+  display: inline-block;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.option-container {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.option {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-size: 30px;
+  width: 80%;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+#home {
+  background-color: rgba(114, 159, 158, 0.888);
+}
+
+#advisor {
+  background-color: rgba(144, 30, 30, 0.838);
+  color: white;
+}
+
+#meeting {
+  background-color: rgb(15, 121, 15);
+  color: white;
+}
+
+#videos {
+  background-color: rgb(23, 142, 217);
+  color: white;
+}
+
+#logout {
+  margin-top: 100px;
+  background-color: rgb(20, 115, 174);
+  color: white;
+}
+
+.box {
+  vertical-align: middle;
+  width: 70%;
+  height: 500px;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
